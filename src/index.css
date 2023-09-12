@@ -1,0 +1,32 @@
+/*! Media Queries */
+
+@media (max-width: 1500px) {
+
+  .container__residentCard {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .container__residentCard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .container {
+  }
+}
+
+@media (max-width: 550px) {
+
+  .container {
+  }
+
+  .container__residentCard {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .locationInfo__ul {
+    margin: 0 5em 2em 5em;
+  }
+}
